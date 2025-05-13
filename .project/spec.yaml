@@ -89,7 +89,9 @@ execution:
         gpu:
             requested: 0
         sharedMemoryMB: 0
-    secrets: []
+    secrets:
+        - variable: sdfadsf
+          description: ""
     mounts:
         - type: project
           target: /project/
